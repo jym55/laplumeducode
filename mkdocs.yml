@@ -1,0 +1,49 @@
+site_name: La plume du code
+site_description: Bloc-notes technique
+site_author: jym55
+
+# Configuration du thème
+theme:
+  name: material
+  language: fr
+  palette:
+    # Mode clair par défaut
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal       # Une couleur bleu-vert élégante
+      accent: deep orange  # Pour les boutons et liens
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au mode sombre
+    # Mode sombre automatique
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Passer au mode clair
+  
+  # Options d'affichage pratiques
+  features:
+    - navigation.tabs      # Menu horizontal en haut
+    - navigation.top       # Bouton pour remonter en haut de page
+    - search.suggest       # Suggestions de recherche
+    - search.highlight     # Surlignage des mots cherchés dans le texte
+
+# Extensions pour formater le code et les alertes (Ubuntu/CMS)
+markdown_extensions:
+  - admonition         # Pour créer des blocs d'alerte (Note, Danger, Info)
+  - pymdownx.details   # Pour faire des blocs pliables/dépliants
+  - pymdownx.superfences # Pour une coloration syntaxique avancée du code
+  - pymdownx.tabbed:   # Pour faire des onglets (pratique pour comparer 2 commandes)
+      alternate_style: true
+
+# Structure de navigation de votre bloc-notes
+nav:
+  - Accueil: index.md
+  - 🐧 Ubuntu Budgie:
+    - Astuces : ubuntu-budgie/astuces.md
+  - 🛠️ ZwiiCMS Lab:
+    - Notes d'installation: zwiicms/installation.md
+    - Notes de configuration: zwiicms/configuration.md
