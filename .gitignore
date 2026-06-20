@@ -1,0 +1,32 @@
+# ==========================================
+# Spécifique à MkDocs
+# ==========================================
+# Ignore le dossier où MkDocs génère le site HTML localement
+site/
+
+# Ignore les fichiers temporaires ou de cache de MkDocs
+.mkdocs/
+
+# ==========================================
+# Fichiers système et environnements (Ubuntu/Linux)
+# ==========================================
+.directory
+.Trash-*
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Outils de développement et IDE
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*~
+.history/
+
+# ==========================================
+# Environnements virtuels Python (si installés localement)
+# ==========================================
+env/
+venv/
+.venv/
