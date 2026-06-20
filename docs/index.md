@@ -10,15 +10,10 @@ Bienvenue dans mon jardin numérique et bloc-notes technique. Cet espace me sert
 ## 🐧 Laboratoire Ubuntu Budgie
 Retrouvez ici mes notes système, mes optimisations et mes configurations pour l'environnement de bureau Ubuntu Budgie.
 
-*   [🛠️ Astuces & Scripts](ubuntu-budgie/astuces.md) — *Lignes de commande utiles, automatisation et personnalisation du bureau.*
-
 ---
 
 ## 💻 ZWiiCMS Lab
 Espace dédié à la prise en main, au déploiement et à la personnalisation de ZWiiCMS. Comme ce CMS fonctionne sans base de données (système *Flat-File*), je centralise ici mes recherches sur sa structure et son design avant le grand saut chez l'hébergeur.
-
-*   [📥 Notes d'installation](zwiicms/installation.md) — *Structure des fichiers, gestion des permissions et déploiement local.*
-*   [🎨 Idées Design & CSS](zwiicms/design.md) — *Snippets de code, intégration de thèmes et personnalisation des feuilles de style.*
 
 ---
 
