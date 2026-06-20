@@ -1,0 +1,27 @@
+name: Déploiement de La Plume du Code
+on:
+  push:
+    branches:
+      - main  # Déclenche la publication à chaque push sur la branche principale
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Configuration de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+          
+      - name: Installation de MkDocs et Material
+        run: |
+          pip install mkdocs-material
+          # Ajoutez ici d'autres extensions si vous en utilisez (ex: mkdocs-lightbox)
+          
+      - name: Déploiement sur GitHub Pages
+        run: mkdocs gh-deploy --force
