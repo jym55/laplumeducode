@@ -1,6 +1,8 @@
 # La Plume du Code
 Mon bloc-notes numérique
 
+[Visiter le site](https://jym55.github.io/laplumeducode/)
+
 # 📝 La plume du code — Carnet de bord
 
 Bienvenue sur mon bloc-notes open-source. C'est ici que je prépare mes tutoriels, note mes astuces pour **Ubuntu Budgie** et **ZwiiCMS**.
