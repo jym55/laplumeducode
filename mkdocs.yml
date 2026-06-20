@@ -43,7 +43,8 @@ markdown_extensions:
 nav:
   - Accueil: index.md
   - 🐧 Ubuntu Budgie:
-    - Astuces : ubuntu-budgie/astuces.md
+    - Astuces : 
+      - Décativer le clavier numérique au démarrage : ubuntu-budgie/astuce-clavier.md
   - 🛠️ ZwiiCMS Lab:
     - Notes d'installation: zwiicms/installation.md
     - Notes de configuration: zwiicms/configuration.md
